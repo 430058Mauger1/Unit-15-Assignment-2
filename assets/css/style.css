@@ -1,0 +1,48 @@
+body {
+    height: 100%;
+}
+
+@media (Max-width: 1200px) {
+
+    p,
+    li {
+        font-size: 14px;
+    }
+}
+
+@media (Min-width: 1200px) {
+
+    p,
+    li {
+        font-size: 17px;
+    }
+}
+
+.A {
+    background-color: #5f7d89;
+    height: 100%
+}
+
+.B {
+    background-color: #3F6270;
+    height: 100%;
+}
+
+p,
+li,
+h1,
+h2,
+.H {
+    color: #ffffff;
+}
+
+.navbar-custom {
+    background-color: #092833;
+    /* Custom background color */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: 700;
+}

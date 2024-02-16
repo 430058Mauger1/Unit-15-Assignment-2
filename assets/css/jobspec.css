@@ -1,0 +1,58 @@
+body {
+    height: 100vh;
+}
+
+@media (Max-width: 1200px) {
+
+    p,
+    li {
+        font-size: 14px;
+    }
+}
+
+.A {
+    background-color: #5f7d89;
+    height: auto;
+}
+
+@media (Min-width: 1200px) {
+
+    p,
+    li {
+        font-size: 17px;
+    }
+}
+
+.CButtons {
+    background-color: #5f7d89;
+}
+
+.B {
+    background-color: #3F6270;
+    height: 100vh;
+}
+
+p,
+li,
+h2 {
+    color: #000000;
+}
+
+.H {
+    height: auto;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+.navbar-custom {
+    background-color: #092833;
+    /* Custom background color */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: 700;
+}
