@@ -62,7 +62,7 @@ People who have completed training courses or qualifications related to web deve
 + #193C4A
 + #092833
 
-I felt like this colour choice was a good choice because blue is considered
+This color scheme provides good contrast against light backgrounds, making text and interactive elements easily readable for users with visual impairments, it is visually distinct, helping users easily distinguish different sections or elements on the website.
 
 ### Typography
 
@@ -81,39 +81,42 @@ I will be using Arial, Helvetica, sans-serif in that order of priority. I will b
 #### A Bootstrap Navbar
 
 + #092833
-+ Width 100% Height 56 pixels
 + White text, weight 700
-+ Will have the companies name, links to other pages and a search bar and button.
-+ Bootstraps navbar automatically adjusts its size and layout for smaller screens.
++ Width 100% Height 56 pixels
++ Will have the companies name, links to other pages and a search bar and button
++ Bootstraps navbar automatically adjusts its size and layout for smaller screens
 
 #### B Bootstrap grid column
 
 + #5F7D89
-+ <h1> are #ffffff, and use default weights and sizes.
++ Bootstrap padding 2, no margins
++ heading 1 tags are #ffffff, and use default weights and sizes.
 + Size: At and above the bootstrap breakpoint xl it is 8 of 12 columns in width, when it goes below xl it is 12 columns in width. Height 100%.
-Paragraphs
-
 
 #### C Bootstrap grid column
 
-+ Size: At and above the bootstrap breakpoint xl it is 4 of 12 columns in width, when it goes below xl it is 12 columns in width.
 + #3F6270
++ Bootstrap padding 2, no margins
 + white text, heading 1 use default weights and sizes.
-+ Height 100%
++ Size: At and above the bootstrap breakpoint xl it is 4 of 12 columns in width, when it goes below xl it is 12 columns in width. Height 100%.
 
 #### D Text
 
 + white text, default heading weights and sizes. Paragraphs and list items text changes size depending on screen size, if the screen is 1200px of below the text is 14px, if it is above that it is 17px.
 
-#### E Text
+#### E Carousel with card
 
++ #3F6270 background colour and card colour.
++ default bootstrap card sizes
 + white text, default heading weights and sizes. Paragraphs and list items text changes size depending on screen size, if the screen is 1200px of below the text is 14px, if it is above that it is 17px.
 
 All text will be in the Arial font and should it not be available then Helvetica, or sans-serif fonts.
 
-I decided to go with design two for my website because for the first design I would have had to create a separate page for the staff according to client requirements. I also like this design because the added navigation capabilities like the search bar, which would make the site easier to navigate.
+I decided to go with design two for my website because for the first design I would have had to create a separate page for the staff according to client requirements. I also like this design because the added navigation capabilities like the search bar, which makes the site easier to navigate.
 
 ### Selected Company Profile Mobile
+
+
 
 ![Alt text](../assets/img/ProfPhone.png)
 
@@ -125,7 +128,7 @@ I decided to go with design two for my website because for the first design I wo
 
 ![Alt text](../assets/img/Carousel2.png)
 
-In the alternative design I changed the job specification section to a carousel because otherwise there would need to be multiple different pages if there were more then one job available, this helps the code be more maintainable by reducing the amount of code.
+I decided to go with this design because I changed the job specification section to a carousel because otherwise there would need to be multiple different pages if there were more then one job available, this helps the code be more maintainable by reducing the amount of code. This design also makes the website easier to navigate because there will be less pages.
 
 #### A Bootstrap Navbar
 
@@ -137,13 +140,35 @@ In the alternative design I changed the job specification section to a carousel 
 
 #### B Bootstrap Grid column
 
++ #5F7D89
++ Bootstrap padding 2, no margins
++ heading 1 tags are #ffffff, and use default weights and sizes.
++ Size: At and above the bootstrap breakpoint xl it is 8 of 12 columns in width, when it goes below xl it is 12 columns in width. Height 100%.
+
 #### C Bootstrap Grid column
 
-#### D Bootstrap Carousel
++ #3F6270
++ Bootstrap padding 2, no margins
++ white text, heading 1 use default weights and sizes.
++ Size: At and above the bootstrap breakpoint xl it is 4 of 12 columns in width, when it goes below xl it is 12 columns in width. Height 100%.
+
+#### D Bootstrap Carousel with card
+
++ #5F7D89 background colour
++ #ffffff Card colour
++ default bootstrap card sizes
++ black text, default heading weights and sizes. Paragraphs and list items text changes size depending on screen size, if the screen is 1200px of below the text is 14px, if it is above that it is 17px.
+
+All text will be in the Arial font and should it not be available then Helvetica, or sans-serif fonts.
 
 #### E Embedded YouTube video links
 
++ Three videos
++ height 30%, width 100%
+
 ### Join us/Job Spec Page Mobile Design
+
+This is what it should look like for smaller screen sizes.
 
 ![Alt text](../assets/img/PhoneJob.png)
 
@@ -151,34 +176,61 @@ In the alternative design I changed the job specification section to a carousel 
 
 ![Alt text](../assets/img/FormSTB.png)
 
-#### A
+#### A Bootstrap navbar
 
-+ Will have the companies name, links to other pages and a search bar and button.
 + #092833
-+ Width 100% Height 56 pixels
 + White text, weight 700
++ Width 100% Height 56 pixels
++ Will have the companies name, links to other pages and a search bar and button.
 + Bootstraps navbar automatically adjusts its size and layout for smaller screens.
 
-#### B
+#### B Container
 
 + Width 100%, height 100%
 + #5F7D89
 
-#### D
+#### D Form
 
-+ border 3px solid #ffffff
++ Border: 3px solid #ffffff
++ Padding: 40px
++ Border Radius: 10px
++ Min Width: 540px
 + Heading size 28px heading weight 600
-+ Paragraph
 
-#### E
+#### E Input
 
-#### F
+Background Colour: #ffffff
+Font Size: 15px
+Font Weight: 300
+Width: 100%, Height: auto
 
-#### G
+#### F Input
 
-#### H
++ Background Colour: #ffffff
++ Font Size: 15px
++ Font Weight: 300
++ Width: 100%, Height: auto
 
-#### I
+#### G Select Box
+
++ Background Color: #ffffff
++ Font Size: 15px
++ Font Weight: 300
+
+#### H Bootstrap Radio Buttons
+
++ Colour: #ffffff
+
+#### I Confirmation Checkbox
+
++ Colour: #ffffff
+
+#### Submit Button
+
++ Background Color: #6C757D
++ Hover Color: #495056
+
+I chose this design because it keeps everything neat and modern. The input fields, select boxes, and radio buttons all have the same style, which makes them easy to use and looks good. Plus, the form is right in the middle of the page, so it looks balanced and works well on different-sized screens ensuring that it remains visually balanced and accessible across different screen sizes.
 
 ## Testing
 
