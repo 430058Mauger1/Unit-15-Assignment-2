@@ -1,5 +1,8 @@
-body {
-    height: 100vh;
+html,
+body,
+.container-fluid,
+.row {
+    height: 100%;
 }
 
 @media (Max-width: 1200px) {
@@ -12,7 +15,7 @@ body {
 
 .A {
     background-color: #5f7d89;
-    height: auto;
+    height: 100%;
 }
 
 @media (Min-width: 1200px) {
@@ -29,17 +32,13 @@ body {
 
 .B {
     background-color: #3F6270;
-    height: 100vh;
+    height: 100%;
 }
 
 p,
 li,
 h2 {
     color: #000000;
-}
-
-.H {
-    height: auto;
 }
 
 h1 {
