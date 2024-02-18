@@ -20,7 +20,7 @@ body {
 
 .A {
     background-color: #5f7d89;
-    height: 100%
+    height: auto;
 }
 
 .B {
@@ -45,4 +45,8 @@ h2,
 .navbar-custom .navbar-nav .nav-link {
     color: #ffffff;
     font-weight: 700;
+}
+
+.container-fluid-2 {
+    height: 100%;
 }
