@@ -1,7 +1,4 @@
-html {
-    height: 1005;
-}
-body {
+html, body, .container-fluid, .row {
     height: 100%;
 }
 
@@ -47,12 +44,4 @@ h2,
 .navbar-custom .navbar-nav .nav-link {
     color: #ffffff;
     font-weight: 700;
-}
-
-.container-fluid {
-    height: 100%;
-}
-
-.row {
-    height: 100%;
 }
