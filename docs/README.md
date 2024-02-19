@@ -234,8 +234,6 @@ I chose this design because it keeps everything neat and modern. The input field
 
 ## Testing
 
-
-
 ### Functionality & Compatibility Testing
 
 To test my website I will make sure all my links, buttons and interactive features work. To do this once I will go through and check all links, buttons and interactive features and record the results. To test the websites compatibility I will use it on multiple browsers and devices.
@@ -244,19 +242,19 @@ To test my website I will make sure all my links, buttons and interactive featur
 
 ### Company Profile Page
 
-|   	          |Navigation links|Search Bar|Search Button|Carousel Previous button|Carousel Next button|
+|                 |Navigation links|Search Bar|Search Button|Carousel Previous button|Carousel Next button|
 |-----------------|----------------|----------|-------------|------------------------|--------------------|
 |Works as intended|&#10003;        |     X    |   X         |&#10003;                |     &#10003;       |
 
 ### Join Us Page
 
-|   	          |Navigation links|Search Bar|Search Button|Carousel Next button|Video Links       | Apply Button     |
+|                 |Navigation links|Search Bar|Search Button|Carousel Next button|Video Links       | Apply Button     |
 |-----------------|----------------|----------|-------------|--------------------|------------------|------------------|
 |Works as intended|&#10003;        |     X    |   X         |&#10003;            |     &#10003;     |     &#10003;     |
 
 ### Form Page
 
-|   	          |Navigation links|Search Bar|Search Button|Name Input          |Email Input       |Position selection|Radio Buttons     |CheckBox          |Submit            |
+|                 |Navigation links|Search Bar|Search Button|Name Input          |Email Input       |Position selection|Radio Buttons     |CheckBox          |Submit            |
 |-----------------|----------------|----------|-------------|--------------------|------------------|------------------|------------------|------------------|------------------|
 |Works as intended|&#10003;        |     X    |   X         |&#10003;            |     &#10003;     |     &#10003;     |     &#10003;     |     &#10003;     |     &#10003;     |
 
@@ -268,9 +266,9 @@ The fields cant be blank.
 
 ![alt text](../assets/img/EmailVal2.png)
 
-![alt text](../assets/img/EmailVal1.png)
-
 Email Input must be an email to be valid.
+
+![alt text](../assets/img/EmailVal1.png)
 
 ## Browser test
 
@@ -298,7 +296,33 @@ The website works as expected on Microsoft Edge.
 
 ## Phone
 
+### Company Profile Page
+
+|                 |Navigation links|Search Bar|Search Button|Carousel Previous button|Carousel Next button|
+|-----------------|----------------|----------|-------------|------------------------|--------------------|
+|Works as intended|&#10003;        |     X    |   X         |&#10003;                |     &#10003;       |
+
+### Join Us Page
+
+|                 |Navigation links|Search Bar|Search Button|Carousel Next button|Video Links       | Apply Button     |
+|-----------------|----------------|----------|-------------|--------------------|------------------|------------------|
+|Works as intended|&#10003;        |     X    |   X         |&#10003;            |     &#10003;     |     &#10003;     |
+
+### Form Page
+
+|                 |Navigation links|Search Bar|Search Button|Name Input          |Email Input       |Position selection|Radio Buttons     |CheckBox          |Submit            |
+|-----------------|----------------|----------|-------------|--------------------|------------------|------------------|------------------|------------------|------------------|
+|Works as intended|&#10003;        |     X    |   X         |&#10003;            |     &#10003;     |     &#10003;     |     &#10003;     |     &#10003;     |     &#10003;     |
+
+![alt text](../assets/img/PhoneWeb1.jpg)
+
+![alt text](../assets/img/PhoneWeb.jpg)
+
+![alt text](../assets/img/PhoneWeb3.jpg)
+
 ## Desktop Computer
+
+[Here](#functionality--compatibility-testing-results)
 
 ### Usability Testing
 
@@ -311,7 +335,6 @@ To test this I let peers look at the website to provide feedback.
 #### Ugnius Meildazys
 
 "The websites color scheme is nice and easy on the eyes but there is a few problems, first the carousel of the current staff seem to break when you use it for the first time after that it fixes itself. The job specification page works fine but there is a few things that would bug people, first would be the ability to only go forward and not back on the different jobs and one of the three job specifications is a different size and it messes with the size of the page making it jump, second would be the videos there is three of the same videos maybe have 3 different ones instead of all of them the same. The apply page has no place to upload a cv or any file and the gender select is hard to see when you hover your mouse over it."
-
 
 ## Optimisations
 
