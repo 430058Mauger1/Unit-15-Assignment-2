@@ -62,7 +62,7 @@ People who have completed training courses or qualifications related to web deve
 + #193C4A
 + #092833
 
-This color scheme provides good contrast against light backgrounds, making text and interactive elements easily readable for users with visual impairments, it is visually distinct, helping users easily distinguish different sections or elements on the website.
+This color scheme provides good contrast against light backgrounds, making text and interactive elements easily readable for users with visual impairments, and it is visually distinct, helping users easily distinguish different sections or elements on the website.
 
 ### Typography
 
@@ -238,7 +238,7 @@ I chose this design because it keeps everything neat and modern. The input field
 
 ### Functionality & Compatibility Testing
 
-To test my website I will make sure all my links, buttons and interactive features work. To do this once I will go through and check all links, buttons and interactive features and record the results.
+To test my website I will make sure all my links, buttons and interactive features work. To do this once I will go through and check all links, buttons and interactive features and record the results. To test the websites compatibility I will use it on multiple browsers and devices.
 
 ### Functionality & Compatibility Testing Results
 
@@ -276,13 +276,29 @@ Email Input must be an email to be valid.
 
 ### Chrome
 
-### MS Edge
+![alt text](../assets/img/Chrome.png)
 
-## Device Text
+![alt text](../assets/img/Chrome2.png)
+
+![alt text](../assets/img/Chrome3.png)
+
+The website works as expected on chrome.
+
+### Microsoft Edge
+
+![alt text](../assets/img/MSEDGE.png)
+
+![alt text](../assets/img/MSEDGE2.png)
+
+![alt text](../assets/img/MSEDGE3.png)
+
+The website works as expected on Microsoft Edge.
+
+## Device
 
 ## Phone
 
-## Computer
+## Desktop Computer
 
 ### Usability Testing
 
