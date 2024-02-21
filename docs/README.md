@@ -8,10 +8,12 @@
 
 [Hot Beans Web](https://430058hotbeansweb.netlify.app/)
 
-## To Do List
+## File Structure
+
+## To-Do List
 
 + Create Client Requirements 01/02/2024
-+ Create story boards 02/02/2024-05/02/2024
++ Create storyboards 02/02/2024-05/02/2024
 + Create website 06/02/2024-12/02/2024
 + Usability testing 13/02/2024
 + Functionality Testing 13/02/24
@@ -37,7 +39,7 @@
 + A website that is easy to use and understand
 + A website that is easy to navigate
 + A website that is responsive
-+ A website that loads within a couple seconds
++ A website that loads within a couple of seconds
 
 ### Developer requirements
 
@@ -62,15 +64,15 @@ People who have completed training courses or qualifications related to web deve
 + #193C4A
 + #092833
 
-This color scheme provides good contrast against light backgrounds, making text and interactive elements easily readable for users with visual impairments, and it is visually distinct, helping users easily distinguish different sections or elements on the website.
+This colour scheme provides good contrast against light backgrounds, making text and interactive elements easily readable for users with visual impairments, and it is visually distinct, helping users easily distinguish different sections or elements on the website.
 
 ### Typography
 
-I will be using Arial, Helvetica, sans-serif in that order of priority. I will be using Arial because it is easy to read, versatile because of the various weights it has, making it more accessible, meeting requirements, and because it is a web safe font meaning it comes pre installed on machines. Helvetica is the second priority because it is similar to Arial, It is easy to read and versatile, and it is a web safe font. Sans-serif also has the same advantages to Areal and Helvetica.
+I will be using Arial, Helvetica, and sans-serif in that order of priority. I will be using Arial because it is easy to read, versatile because of the various weights it has, making it more accessible, meeting requirements, and because it is a web-safe font meaning it comes pre-installed on machines. Helvetica is the second priority because it is similar to Arial, It is easy to read and versatile, and it is a web-safe font. Sans-serif also has the same advantages as Areal and Helvetica.
 
 ## Storyboards
 
-### Company Profile alternative Design
+### Company Profile Alternative Design
 
 ![Old Company Profile](../assets/img/CompanyProfileOld.png)
 
@@ -83,7 +85,7 @@ I will be using Arial, Helvetica, sans-serif in that order of priority. I will b
 + #092833
 + White text, weight 700
 + Width 100% Height 56 pixels
-+ Will have the companies name, links to other pages and a search bar and button
++ Will have the company name, links to other pages and a search bar and button
 + Bootstraps navbar automatically adjusts its size and layout for smaller screens
 
 #### B Bootstrap grid column
@@ -102,17 +104,17 @@ I will be using Arial, Helvetica, sans-serif in that order of priority. I will b
 
 #### D Text
 
-+ white text, default heading weights and sizes. Paragraphs and list items text changes size depending on screen size, if the screen is 1200px of below the text is 14px, if it is above that it is 17px.
++ white text, default heading weights and sizes. Paragraphs and list items text changes size depending on screen size, if the screen is 1200px or below the text is 14px, if it is above that it is 17px.
 
 #### E Carousel with card
 
 + #3F6270 background colour and card colour.
 + default bootstrap card sizes
-+ white text, default heading weights and sizes. Paragraphs and list items text changes size depending on screen size, if the screen is 1200px of below the text is 14px, if it is above that it is 17px.
++ white text, default heading weights and sizes. Paragraphs and list items text changes size depending on screen size, if the screen is 1200px or below the text is 14px, if it is above that it is 17px.
 
 All text will be in the Arial font and should it not be available then Helvetica, or sans-serif fonts.
 
-I decided to go with design two for my website because for the first design I would have had to create a separate page for the staff according to client requirements. I also like this design because the added navigation capabilities like the search bar, which makes the site easier to navigate.
+I decided to go with design two for my website because for the first design, I would have had to create a separate page for the staff according to client requirements. I also like this design because of the added navigation capabilities like the search bar, which makes the site easier to navigate.
 
 ### Selected Company Profile Mobile
 
@@ -128,14 +130,14 @@ I decided to go with design two for my website because for the first design I wo
 
 ![Alt text](../assets/img/Carousel2.png)
 
-I decided to go with this design because I changed the job specification section to a carousel because otherwise there would need to be multiple different pages if there were more then one job available, this helps the code be more maintainable by reducing the amount of code. This design also makes the website easier to navigate because there will be less pages.
+I decided to go with this design because I changed the job specification section to a carousel because otherwise there would need to be multiple different pages if there were more than one job available, this helps the code be more maintainable by reducing the amount of code. This design also makes the website easier to navigate because there will be fewer pages.
 
 #### A Bootstrap Navbar
 
 + #092833
 + Width 100% Height 56 pixels
 + White text, weight 700
-+ Will have the companies name, links to other pages and a search bar and button.
++ Will have the company's name, links to other pages and a search bar and button.
 + Bootstraps navbar automatically adjusts its size and layout for smaller screens.
 
 #### B Bootstrap Grid column
@@ -157,7 +159,7 @@ I decided to go with this design because I changed the job specification section
 + #5F7D89 background colour
 + #ffffff Card colour
 + default bootstrap card sizes
-+ black text, default heading weights and sizes. Paragraphs and list items text changes size depending on screen size, if the screen is 1200px of below the text is 14px, if it is above that it is 17px.
++ black text, default heading weights and sizes. Paragraphs and list items text changes size depending on screen size, if the screen is 1200px or below the text is 14px, if it is above that it is 17px.
 
 All text will be in the Arial font and should it not be available then Helvetica, or sans-serif fonts.
 
@@ -181,7 +183,7 @@ This is what it should look like for smaller screen sizes.
 + #092833
 + White text, weight 700
 + Width 100% Height 56 pixels
-+ Will have the companies name, links to other pages and a search bar and button.
++ Will have the company's name, links to other pages and a search bar and button.
 + Bootstraps navbar automatically adjusts its size and layout for smaller screens.
 
 #### B Container
@@ -236,7 +238,7 @@ I chose this design because it keeps everything neat and modern. The input field
 
 ### Functionality & Compatibility Testing
 
-To test my website I will make sure all my links, buttons and interactive features work. To do this once I will go through and check all links, buttons and interactive features and record the results. To test the websites compatibility I will use it on multiple browsers and devices.
+To test my website I will make sure all my links, buttons and interactive features work. To do this I will go through and check all links, buttons and interactive features and record the results. To test the website's compatibility I will use it on multiple browsers and devices.
 
 ### Functionality & Compatibility Testing Results
 
@@ -258,11 +260,17 @@ To test my website I will make sure all my links, buttons and interactive featur
 |-----------------|----------------|----------|-------------|--------------------|------------------|------------------|------------------|------------------|------------------|
 |Works as intended|&#10003;        |     X    |   X         |&#10003;            |     &#10003;     |     &#10003;     |     &#10003;     |     &#10003;     |     &#10003;     |
 
+### Performance test
+
+![alt text](../assets/img/performance.png)
+
+My website performs well and loads within a few seconds.
+
 ### Form Validation
 
 ![alt text](../assets/img/Validation1.png)
 
-The fields cant be blank.
+The fields can't be blank.
 
 ![alt text](../assets/img/EmailVal2.png)
 
@@ -280,7 +288,7 @@ Email Input must be an email to be valid.
 
 ![alt text](../assets/img/Chrome3.png)
 
-The website works as expected on chrome.
+The website works as expected on Chrome.
 
 ### Microsoft Edge
 
@@ -314,11 +322,7 @@ The website works as expected on Microsoft Edge.
 |-----------------|----------------|----------|-------------|--------------------|------------------|------------------|------------------|------------------|------------------|
 |Works as intended|&#10003;        |     X    |   X         |&#10003;            |     &#10003;     |     &#10003;     |     &#10003;     |     &#10003;     |     &#10003;     |
 
-![alt text](../assets/img/PhoneWeb1.jpg)
-
-![alt text](../assets/img/PhoneWeb.jpg)
-
-![alt text](../assets/img/PhoneWeb3.jpg)
+![alt text](../assets/img/PhoneWeb1.jpg) ![alt text](../assets/img/PhoneWeb.jpg) ![alt text](../assets/img/PhoneWeb3.jpg)
 
 ## Desktop Computer
 
@@ -332,9 +336,15 @@ To test this I let peers look at the website to provide feedback.
 
 "The overall layout and design of the website is great and seems very professional and organized. However, one improvement I picked out is to edit the headers of the different positions in the job specifications to make them more noticeable since at first I didn't notice they were there".
 
-#### Ugnius Meildazys
+#### Nojus Timofejevas
 
-"The websites color scheme is nice and easy on the eyes but there is a few problems, first the carousel of the current staff seem to break when you use it for the first time after that it fixes itself. The job specification page works fine but there is a few things that would bug people, first would be the ability to only go forward and not back on the different jobs and one of the three job specifications is a different size and it messes with the size of the page making it jump, second would be the videos there is three of the same videos maybe have 3 different ones instead of all of them the same. The apply page has no place to upload a cv or any file and the gender select is hard to see when you hover your mouse over it."
+"The Navbar looks really clean and professional, and I love how they've used a carousel for extra info without it being distracting. But, when you're trying to apply, there's no place to upload your CV or any other files. Also, it's kind of hard to see the gender selection and submit buttons when you hover over them."
+
+#### Respond to feedback
+
+Mitchell provided feedback indicating that the job positions were not easily discernible, which contradicts the requirements set by my client. To address this issue, I enclosed the job positions with an h1 tag and applied black styling to enhance their visibility.
+
+Nojus has said that there is no place to upload your cv to the website. In response to this I have added a place to upload files to the form using Bootstrap. I also agree that the gender selection and submit buttons are hard to see so in response I have changed their colours to #092833 and #193C4A.
 
 ## Optimisations
 
