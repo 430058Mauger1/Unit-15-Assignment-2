@@ -118,8 +118,6 @@ I decided to go with design two for my website because for the first design, I w
 
 ### Selected Company Profile Mobile
 
-
-
 ![Alt text](../assets/img/ProfPhone.png)
 
 ### Join us/Job Spec Page First Design
@@ -276,8 +274,6 @@ The fields can't be blank.
 
 Email Input must be an email to be valid.
 
-![alt text](../assets/img/EmailVal1.png)
-
 ## Browser test
 
 ### Chrome
@@ -358,9 +354,8 @@ Nojus has said that there is no place to upload your cv to the website. In respo
 
 ### After
 
+![alt text](../assets/img/After1.png)
+
+![alt text](../assets/img/After2.png)
+
 ## Evaluation
-
-## References
-
-<https://colorlib.com/wp/website-color-statistics/> - colour statistics
-<https://marketsplash.com/color-psychology-statistics/#link4> - colour statistics
