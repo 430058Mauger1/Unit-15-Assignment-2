@@ -52,24 +52,6 @@
 
 People who have completed training courses or qualifications related to web development and are now looking for a job as a web developer.
 
-### Colour Scheme
-
-[Paletton](https://paletton.com/#uid=13q0u0kh5hca9roeDmlmgeJriag)
-
-![ColourSchemeImage](../assets/img/CScheme.PNG)
-
-+ #2A4A56
-+ #5F7D89
-+ #3F6270
-+ #193C4A
-+ #092833
-
-This colour scheme provides good contrast against light backgrounds, making text and interactive elements easily readable for users with visual impairments, and it is visually distinct, helping users easily distinguish different sections or elements on the website.
-
-### Typography
-
-I will be using Arial, Helvetica, and sans-serif in that order of priority. I will be using Arial because it is easy to read, versatile because of the various weights it has, making it more accessible, meeting requirements, and because it is a web-safe font meaning it comes pre-installed on machines. Helvetica is the second priority because it is similar to Arial, It is easy to read and versatile, and it is a web-safe font. Sans-serif also has the same advantages as Areal and Helvetica.
-
 ## Storyboards
 
 ### Company Profile Alternative Design
@@ -234,7 +216,31 @@ I chose this design because it keeps everything neat and modern. The input field
 
 ## Justify design decisions
 
-I believe my designs help meet the user requirements
+I believe my designs help meet the requirements.
+
+One way they achieve this is with their layout. All the storyboards have a similar layout to ensure consistency, which creates a smoother and more intuitive experience for users. It is simple, with a navigation bar at the top and two sections for content. The only page that does not have this layout is the form page because it does not need it. This provides users with a website that is easy to understand, use, and navigate. The layouts are also responsive, which makes the sites much more accessible to users on other devices like mobile.
+
+The designs make use of Bootstrap components such as carousels and cards, which helps minimize the number of pages needed as per the client's requirements. By leveraging these components, I combined the company profile page with the employee profile pages. This not only reduces the overall amount of code but also enhances maintainability for developers.
+
+Another way the designs help meet requirements is with the selected typography and colour scheme.
+
+### Colour Scheme
+
+[Paletton](https://paletton.com/#uid=13q0u0kh5hca9roeDmlmgeJriag)
+
+![ColourSchemeImage](../assets/img/CScheme.PNG)
+
++ #2A4A56
++ #5F7D89
++ #3F6270
++ #193C4A
++ #092833
+
+This colour scheme provides good contrast against light backgrounds, making text and interactive elements easily readable for users with visual impairments, and it is visually distinct, helping users easily distinguish different sections or elements on the website. Overall the selected colour scheme helps meet the accessibility requirements and makes the website easier to use and understand.
+
+### Typography
+
+The fonts I have selected for the website is Arial because it was designed for readability, making it accessible to a wide range of audiences, including those with visual impairments. It is also a web-safe font, meaning it is commonly pre-installed on most computers and devices. In summary, the chosen typography aids in meeting accessibility requirements and enhances the website's usability and clarity. If the arial font is not available I have selected fall backs with the same benefits to arial. Helvetica is my second fall back since it is also easy to read, versatile, and web-safe. If that is not available then I'll go with sans-serif, since it has the same benefits as Arial and Helvetica.
 
 ## Testing
 
