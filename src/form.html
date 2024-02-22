@@ -1,32 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apply</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="../assets/css/form.css" rel="stylesheet">
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous">
+    <!-- Include custom form CSS -->
+    <link rel="stylesheet" href="../assets/css/form.css">
 </head>
 
 <body>
+    <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark navbar-custom">
         <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">Hot Beans Web</a>
+            <!-- Toggle button for collapsing menu in smaller screens -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <!-- Navigation links -->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
+                    <!-- Link to go back -->
                     <li class="nav-item">
                         <a class="nav-link" href="joinus.html">Back</a>
                     </li>
+                    <!-- Link to go to the about page -->
                     <li class="nav-item">
                         <a class="nav-link" href="../index.html">About Us</a>
                     </li>
                 </ul>
+                <!-- Search form -->
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
@@ -34,6 +43,7 @@
             </div>
         </div>
     </nav>
+    <!-- Form body -->
     <div class="form-body">
         <div class="row" style="width: 100%;">
             <div class="form-holder">
@@ -41,15 +51,18 @@
                     <div class="form-items">
                         <h3>Register Today</h3>
                         <p>Fill in the data below.</p>
+                        <!-- Registration form -->
                         <form class="requires-validation" novalidate>
 
                             <div class="col-md-12">
+                                <!-- Input field for full name -->
                                 <input class="form-control" type="text" name="name" placeholder="Full Name" required>
                                 <div class="valid-feedback">Name field is valid!</div>
                                 <div class="invalid-feedback">Name field cannot be blank!</div>
                             </div>
 
                             <div class="col-md-12">
+                                <!-- Input field for email address -->
                                 <input class="form-control" type="email" name="email" placeholder="E-mail Address"
                                     required>
                                 <div class="valid-feedback">Email field is valid!</div>
@@ -57,6 +70,7 @@
                             </div>
 
                             <div class="col-md-12">
+                                <!-- Dropdown for selecting position -->
                                 <select class="form-select mt-3" required>
                                     <option selected disabled value="">Position</option>
                                     <option value="jweb">Junior Web Developer</option>
@@ -68,6 +82,7 @@
                             </div>
 
                             <div class="col-md-12 mt-3">
+                                <!-- Radio buttons for selecting gender -->
                                 <label class="mb-3 mr-1" for="gender">Gender: </label>
                             
                                 <input type="radio" class="btn-check" name="gender" id="male" autocomplete="off" required>
@@ -81,12 +96,14 @@
                                 <div class="valid-feedback mv-up">You selected a gender!</div>
                                 <div class="invalid-feedback mv-up">Please select a gender!</div>
                             
+                                <!-- File input -->
                                 <div class="custom-file">
                                     <input type="file" class="custom-file-input" id="customFile" name="file">
                                     <label class="custom-file-label" for="customFile"></label>
                                 </div>
-                            
+                            </div>
 
+                            <!-- Checkbox for confirming data -->
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
                                 <label class="form-check-label">I confirm that all data is correct</label>
@@ -94,6 +111,7 @@
                                 </div>
                             </div>
 
+                            <!-- Submit button -->
                             <div class="form-button mt-3">
                                 <button id="submit" type="submit" class="btn btn-primary">Register</button>
                             </div>
@@ -103,9 +121,11 @@
             </div>
         </div>
     </div>
+    <!-- Include Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <!-- Include custom form JS -->
     <script src="../assets/js/form.js"></script>
 </body>
 

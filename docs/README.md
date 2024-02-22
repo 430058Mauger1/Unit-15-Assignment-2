@@ -232,6 +232,10 @@ Width: 100%, Height: auto
 
 I chose this design because it keeps everything neat and modern. The input fields, select boxes, and radio buttons all have the same style, which makes them easy to use and looks good. Plus, the form is right in the middle of the page, so it looks balanced and works well on different-sized screens ensuring that it remains visually balanced and accessible across different screen sizes.
 
+## Justify design decisions
+
+I believe my designs help meet the user requirements
+
 ## Testing
 
 ### Functionality & Compatibility Testing
