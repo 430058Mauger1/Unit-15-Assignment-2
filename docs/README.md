@@ -46,8 +46,6 @@
 + Code needs to be easy to understand
 + Code needs to be easy to maintain
 
-## Design
-
 ### Target Audience
 
 People who have completed training courses or qualifications related to web development and are now looking for a job as a web developer.
@@ -238,6 +236,14 @@ Another way the designs help meet requirements is with the selected typography a
 
 This colour scheme provides good contrast against light backgrounds, making text and interactive elements easily readable for users with visual impairments, and it is visually distinct, helping users easily distinguish different sections or elements on the website. Overall the selected colour scheme helps meet the accessibility requirements and makes the website easier to use and understand.
 
+Testing the colour scheme using a [contrast checker](https://www.siegemedia.com/contrast-ratio#white-on-%233F6270).
+
+![alt text](../assets/img/092833test.png)
+
+![alt text](../assets/img/5f7d89test.png)
+
+![alt text](../assets/img/3f6270test.png)
+
 ### Typography
 
 The fonts I have selected for the website is Arial because it was designed for readability, making it accessible to a wide range of audiences, including those with visual impairments. It is also a web-safe font, meaning it is commonly pre-installed on most computers and devices. In summary, the chosen typography aids in meeting accessibility requirements and enhances the website's usability and clarity. If the arial font is not available I have selected fall backs with the same benefits to arial. Helvetica is my second fall back since it is also easy to read, versatile, and web-safe. If that is not available then I'll go with sans-serif, since it has the same benefits as Arial and Helvetica.
@@ -368,4 +374,20 @@ Nojus has said that there is no place to upload your cv to the website. In respo
 
 ![alt text](../assets/img/After2.png)
 
-## Evaluation
+## Write an evaluation of the design, development, and optimisation of the web site
+
+### Design
+
+I believe my websites design meets the requirements, and effectively appeals to the target audience and meets its stated purpose.
+
+One way it does this is with the chosen color scheme, which provides excellent contrast against light backgrounds, which was proven with [testing](#colour-scheme), ensuring that text and interactive elements remain easily readable for users, including those with visual impairments.
+
+Secondly, the typography selected not only meets accessibility requirements but also significantly enhances the website's usability and clarity. Throughout the site, clear and legible fonts are used and ensure effortless reading across diverse devices and screen sizes. This enhances user experience, makes navigation intuitive for all visitors.
+
+Furthermore, the website's layout is intuitive and user-friendly, allowing visitors to navigate seamlessly between pages with ease. Consistent navigation elements, such as navigation bars and links, guide users through the site and encourage interaction. The layout is responsive and performs well
+
+### Development
+
+### Optimisation
+
+### My Performance
