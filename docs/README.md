@@ -394,8 +394,27 @@ Finally, the responsive design ensures accessibility on a range of devices, prov
 
 ### Development
 
+Throughout the development process I prioritised code clarity and comprehensibility, so I made sure my code was well documented by using comments that described its purpose, This approach not only aids in understanding during the development phase but also lays a strong foundation for future modifications, ensuring the website remains adaptable and easily maintainable.
 
+![alt text](../assets/img/comev.png)
+
+In pursuit of maintainability, I decided to make the codebase smaller. By merging pages during the design phase, I reduced redundancy and complexity, resulting in a more concise and manageable codebase. Additionally, using the Bootstrap framework provided a robust set of pre-built components and styling variables, fostering consistency and efficiency in development and maintenance tasks.
+
+Moreover, employing a version control system, such as GitHub, was helpful in managing changes to the codebase. GitHub's robust features allowed me to track revisions, and seamlessly revert to prior versions when necessary. This meticulous approach to version control ensures a reliable history of changes, facilitating thorough review and approval processes, and ultimately contributing to the long-term maintainability of the project.
 
 ### Optimisation
 
+After completing the development phase, I conducted thorough testing to ensure the website's performance and functionality met expectations. While the results of the testing indicated good performance overall, there are areas that require improvement.
+
+Functionality testing revealed that the interactive features on all pages were functional as intended. However, it was identified that the search bar and button were not operating correctly. This issue was anticipated, and I will provide further detail on addressing it later in this evaluation.
+
+Performance testing indicated that the website met the necessary performance requirements, which is a positive outcome.
+
+Form validation testing revealed that while the form functioned correctly, there were opportunities for improvement. Specifically, the validation process could be enhanced to ensure that only accurate information is accepted in all fields, providing a smoother user experience.
+
+Compatibility testing across different browsers yielded the expected results, confirming that the website is accessible across various platforms. This wide accessibility enhances the website's reach and user engagement.
+
+Furthermore, testing on different devices demonstrated not only the functionality but also the responsiveness of the website's layout. This responsiveness was a requirement and has been successfully implemented.
+
 ### My Performance
+
