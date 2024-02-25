@@ -276,9 +276,11 @@ To test my website I will make sure all my links, buttons and interactive featur
 
 ### Performance test
 
+Using [Lighthouse](https://lighthouse-metrics.com/lighthouse/checks/e604eb23-a3d9-49e4-b0bf-a3487d2613ed) we can see that the website loads within a few seconds meeting client requirements.
+
 ![alt text](../assets/img/performance.png)
 
-My website performs well and loads within a few seconds.
+![alt text](../assets/img/performance2.png)
 
 ### Form Validation
 
@@ -384,9 +386,15 @@ One way it does this is with the chosen color scheme, which provides excellent c
 
 Secondly, the typography selected not only meets accessibility requirements but also significantly enhances the website's usability and clarity. Throughout the site, clear and legible fonts are used and ensure effortless reading across diverse devices and screen sizes. This enhances user experience, makes navigation intuitive for all visitors.
 
-Furthermore, the website's layout is intuitive and user-friendly, allowing visitors to navigate seamlessly between pages with ease. Consistent navigation elements, such as navigation bars and links, guide users through the site and encourage interaction. The layout is responsive and performs well
+Furthermore, the website's layout is intuitive and user-friendly, allowing visitors to navigate seamlessly between pages with ease. Consistent navigation elements, such as navigation bars and links, guide users through the site and encourage interaction.
+
+Additionally, the page performs well. Testing the website using [lighthouse-metrics](https://lighthouse-metrics.com/lighthouse/checks/e604eb23-a3d9-49e4-b0bf-a3487d2613ed), we can see that the page's [First Contentful Paint, Speed Index, Largest Contentful Paint, Total Blocking Time, and Cumulative Layout Shift](#performance-test) all meet the requirements.
+
+Finally, the responsive design ensures accessibility on a range of devices, providing a consistent and optimized experience for users regardless of whether they are accessing the website on a desktop computer, tablet, or mobile phone. This adaptability not only caters to the diverse preferences of the target audience but also reinforces the website's usability and accessibility, enhancing overall user satisfaction and engagement.
 
 ### Development
+
+
 
 ### Optimisation
 

@@ -1,4 +1,4 @@
-*,
+*, /*default styles for all elements and setting common styles for body */
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
@@ -6,15 +6,15 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-html,
+html, /* Setting common styles for HTML and body */
 body {
     height: 100%;
     background-color: #5f7d89;
     overflow: hidden;
 }
 
-
-.form-holder {
+/* Styling for form holder */
+.form-holder  {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,6 +23,7 @@ body {
     min-height: 100vh;
 }
 
+/* Styling for form content */
 .form-holder .form-content {
     position: relative;
     text-align: center;
@@ -38,6 +39,7 @@ body {
     padding: 60px;
 }
 
+/* Styling for form items */
 .form-content .form-items {
     border: 3px solid #fff;
     padding: 40px;
@@ -52,6 +54,7 @@ body {
     transition: all 0.4s ease;
 }
 
+/* Styling for form title */
 .form-content h3 {
     color: #fff;
     text-align: left;
@@ -60,10 +63,13 @@ body {
     margin-bottom: 5px;
 }
 
+/* Styling for form title within form content */
 .form-content h3.form-title {
     margin-bottom: 30px;
 }
 
+
+/* Styling for paragraphs within form content */
 .form-content p {
     color: #fff;
     text-align: left;
@@ -73,13 +79,14 @@ body {
     margin-bottom: 30px;
 }
 
-
+/* Styling for labels and validated form check labels */
 .form-content label,
 .was-validated .form-check-input:invalid~.form-check-label,
 .was-validated .form-check-input:valid~.form-check-label {
     color: #fff;
 }
 
+/* Styling for form inputs */
 .form-content input[type=text],
 .form-content input[type=password],
 .form-content input[type=email],
@@ -99,7 +106,7 @@ body {
     margin-top: 16px;
 }
 
-
+/* Styling for primary button */
 .btn-primary {
     background-color: #193C4A;
     outline: none;
@@ -107,6 +114,7 @@ body {
     box-shadow: none;
 }
 
+/* Styling for primary button on hover, focus, and active states */
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
@@ -116,6 +124,7 @@ body {
     box-shadow: none;
 }
 
+/* Styling for textarea within form content */
 .form-content textarea {
     position: static !important;
     width: 100%;
@@ -135,6 +144,7 @@ body {
     margin-bottom: 14px;
 }
 
+/* Styling for textarea on hover and focus states */
 .form-content textarea:hover,
 .form-content textarea:focus {
     border: 0;
@@ -147,25 +157,30 @@ body {
     margin-bottom: 8px !important;
 }
 
+/* Styling for invalid feedback */
 .invalid-feedback {
     color: #ff606e;
 }
 
+/* Styling for valid feedback */
 .valid-feedback {
     color: #2acc80;
 }
 
+/* Styling for custom navbar */
 .navbar-custom {
     background-color: #092833;
     /* Custom background color */
 }
 
+/* Styling for navbar brand and nav links within custom navbar */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav .nav-link {
     color: #ffffff;
     font-weight: 700;
 }
 
+/* Media query for smaller screens */
 @media screen and (max-width: 767px) {
     .form-content .form-items {
         padding: 20px;
@@ -173,18 +188,21 @@ body {
     }
 }
 
+/* Styling for gender buttons */
 .btn-outline-male {
     color: #ffffff;
     background-color: #193C4A;
     border-color: #193C4A;
   }
-
+  
+/* Styling for gender buttons */
   .btn-outline-female {
     color: #ffffff;
     background-color: #193C4A;
     border-color: #193C4A;
   }
 
+/* Styling for gender buttons */
   .btn-outline-secret {
     color: #ffffff;
     background-color: #193C4A;

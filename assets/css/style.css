@@ -1,7 +1,12 @@
-html, body, .container-fluid, .row {
+/* Setting height to 100% for HTML, body, container-fluid, and row elements */
+html,
+body,
+.container-fluid,
+.row {
     height: 100%;
 }
 
+/* Media query for screens with a maximum width of 1200px */
 @media (Max-width: 1200px) {
 
     p,
@@ -10,6 +15,7 @@ html, body, .container-fluid, .row {
     }
 }
 
+/* Media query for screens with a minimum width of 1200px */
 @media (Min-width: 1200px) {
 
     p,
@@ -18,16 +24,19 @@ html, body, .container-fluid, .row {
     }
 }
 
+/*Styling for the main content area*/
 .A {
     background-color: #5f7d89;
     height: 100%;
 }
 
+/*Styling for the aside*/
 .B {
     background-color: #3F6270;
     height: 100%;
 }
 
+/* Setting color to black for paragraphs, list items, h1, h2, and the card titles*/
 p,
 li,
 h1,
@@ -36,10 +45,12 @@ h2,
     color: #ffffff;
 }
 
+/* Styling for custom navbar */
 .navbar-custom {
     background-color: #092833;
 }
 
+/* Styling for navbar brand and nav links within custom navbar */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav .nav-link {
     color: #ffffff;
