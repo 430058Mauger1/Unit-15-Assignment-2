@@ -11,10 +11,15 @@
 ## File Structure
 
 ├───assets
+
 │   ├───css
+
 │   ├───img
+
 │   └───js
+
 ├───docs
+
 └───src
 
 ## To-Do List
