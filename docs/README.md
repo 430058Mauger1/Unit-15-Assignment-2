@@ -10,6 +10,13 @@
 
 ## File Structure
 
+├───assets
+│   ├───css
+│   ├───img
+│   └───js
+├───docs
+└───src
+
 ## To-Do List
 
 + Create Client Requirements 01/02/2024
@@ -94,7 +101,7 @@ People who have completed training courses or qualifications related to web deve
 
 All text will be in the Arial font and should it not be available then Helvetica, or sans-serif fonts.
 
-I decided to go with design two for my website because for the first design, I would have had to create a separate page for the staff according to client requirements. I also like this design because of the added navigation capabilities like the search bar, which makes the site easier to navigate.
+I decided to go with design two for my website because, for the first design, I would have had to create a separate page for the staff according to client requirements. I also like this design because of the added navigation capabilities like the search bar, which makes the site easier to navigate.
 
 ### Selected Company Profile Mobile
 
@@ -246,7 +253,7 @@ Testing the colour scheme using a [contrast checker](https://www.siegemedia.com/
 
 ### Typography
 
-The fonts I have selected for the website is Arial because it was designed for readability, making it accessible to a wide range of audiences, including those with visual impairments. It is also a web-safe font, meaning it is commonly pre-installed on most computers and devices. In summary, the chosen typography aids in meeting accessibility requirements and enhances the website's usability and clarity. If the arial font is not available I have selected fall backs with the same benefits to arial. Helvetica is my second fall back since it is also easy to read, versatile, and web-safe. If that is not available then I'll go with sans-serif, since it has the same benefits as Arial and Helvetica.
+The font I have selected for the website is Arial because it was designed for readability, making it accessible to a wide range of audiences, including those with visual impairments. It is also a web-safe font, meaning it is commonly pre-installed on most computers and devices. In summary, the chosen typography aids in meeting accessibility requirements and enhances the website's usability and clarity. If the Arial font is not available I have selected fallbacks with the same benefits as Arial. Helvetica is my second fallback since it is also easy to read, versatile, and web-safe. If that is not available then I'll go with sans-serif, since it has the same benefits as Arial and Helvetica.
 
 ## Testing
 
@@ -358,7 +365,7 @@ To test this I let peers look at the website to provide feedback.
 
 Mitchell provided feedback indicating that the job positions were not easily discernible, which contradicts the requirements set by my client. To address this issue, I enclosed the job positions with an h1 tag and applied black styling to enhance their visibility.
 
-Nojus has said that there is no place to upload your cv to the website. In response to this I have added a place to upload files to the form using Bootstrap. I also agree that the gender selection and submit buttons are hard to see so in response I have changed their colours to #092833 and #193C4A.
+Nojus has said that there is no place to upload your CV to the website. In response to this, I have added a place to upload files to the form using Bootstrap. I also agree that the gender selection and submit buttons are hard to see so in response I have changed their colours to #092833 and #193C4A.
 
 ## Optimisations
 
@@ -376,15 +383,15 @@ Nojus has said that there is no place to upload your cv to the website. In respo
 
 ![alt text](../assets/img/After2.png)
 
-## Write an evaluation of the design, development, and optimisation of the web site
+## Write an evaluation of the design, development, and optimisation of the website
 
 ### Design
 
-I believe my websites design meets the requirements, and effectively appeals to the target audience and meets its stated purpose.
+I believe my website design meets the requirements, effectively appeals to the target audience and meets its stated purpose.
 
-One way it does this is with the chosen color scheme, which provides excellent contrast against light backgrounds, which was proven with [testing](#colour-scheme), ensuring that text and interactive elements remain easily readable for users, including those with visual impairments.
+One way it does this is with the chosen colour scheme, which provides excellent contrast against light backgrounds, which was proven with [testing](#colour-scheme), ensuring that text and interactive elements remain easily readable for users, including those with visual impairments.
 
-Secondly, the typography selected not only meets accessibility requirements but also significantly enhances the website's usability and clarity. Throughout the site, clear and legible fonts are used and ensure effortless reading across diverse devices and screen sizes. This enhances user experience, makes navigation intuitive for all visitors.
+Secondly, the typography selected not only meets accessibility requirements but also significantly enhances the website's usability and clarity. Throughout the site, clear and legible fonts are used and ensure effortless reading across diverse devices and screen sizes. This enhances user experience and makes navigation intuitive for all visitors.
 
 Furthermore, the website's layout is intuitive and user-friendly, allowing visitors to navigate seamlessly between pages with ease. Consistent navigation elements, such as navigation bars and links, guide users through the site and encourage interaction.
 
@@ -394,7 +401,7 @@ Finally, the responsive design ensures accessibility on a range of devices, prov
 
 ### Development
 
-Throughout the development process I prioritised code clarity and comprehensibility, so I made sure my code was well documented by using comments that described its purpose, This approach not only aids in understanding during the development phase but also lays a strong foundation for future modifications, ensuring the website remains adaptable and easily maintainable.
+Throughout the development process, I prioritised code clarity and comprehensibility, so I made sure my code was well documented by using comments that described its purpose, This approach not only aids in understanding during the development phase but also lays a strong foundation for future modifications, ensuring the website remains adaptable and easily maintainable.
 
 ![alt text](../assets/img/comev.png)
 
@@ -406,7 +413,7 @@ Moreover, employing a version control system, such as GitHub, was helpful in man
 
 After completing the development phase, I conducted thorough testing to ensure the website's performance and functionality met expectations. While the results of the testing indicated good performance overall, there are areas that require improvement.
 
-Functionality testing revealed that the interactive features on all pages were functional as intended. However, it was identified that the search bar and button were not operating correctly. This issue was anticipated, and I will provide further detail on addressing it later in this evaluation.
+Functionality testing revealed that the interactive features on all pages were functional as intended. However, it was identified that the search bar and button were not operating correctly. This issue was anticipated, and I will provide further details on addressing it later in this evaluation.
 
 Performance testing indicated that the website met the necessary performance requirements, which is a positive outcome.
 
@@ -418,3 +425,12 @@ Furthermore, testing on different devices demonstrated not only the functionalit
 
 ### My Performance
 
+Throughout this project I made sure to stick to my [plan](#to-do-list), using this approach has allowed me to complete tasks in a timely manner and work to meet project milestones efficiently and effectively.
+
+While using my plan has allowed me to complete my project I still struggled in some areas.
+
+One area where I encountered difficulties was with the bootstrap carousel. I intended for it to display the employee profiles correctly and in the intended order. However, upon initial loading, I encountered some functionality issues. Although the carousel was inconsistent and non-functional at first, it operated smoothly once users interacted with it.
+
+Another challenge I encountered was with the search bar and button. Ideally, I would have liked to have these features functioning in the first iteration of the webpage. However, I lacked the necessary experience and knowledge to implement them as desired.
+
+In conclusion, the design, development, and optimization of the website have been executed with a focus on meeting requirements, appealing to the target audience, and ensuring functionality and performance. The design effectively incorporates elements such as colour scheme, typography, layout, and responsiveness, enhancing usability and user experience. Development efforts prioritized code clarity, maintainability, and efficiency, resulting in a streamlined codebase and effective version control management. Thorough optimization testing identified areas for improvement, leading to enhancements in functionality, performance, and compatibility across various devices and browsers. While challenges were encountered, proactive problem-solving and dedication to improvement were demonstrated. Overall, the culmination of these efforts has resulted in a website that not only meets client expectations but also contributes to a positive user experience and reinforces the project's objectives.
