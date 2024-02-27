@@ -420,7 +420,7 @@ After completing the development phase, I conducted thorough testing to ensure t
 
 Functionality testing revealed that the interactive features on all pages were functional as intended. However, it was identified that the search bar and button were not operating correctly. This issue was anticipated, and I will provide further details on addressing it later in this evaluation.
 
-Performance testing indicated that the website met the necessary performance requirements, which is a positive outcome.
+Performance testing indicated that the website met the necessary performance requirements.
 
 Form validation testing revealed that while the form functioned correctly, there were opportunities for improvement. Specifically, the validation process could be enhanced to ensure that only accurate information is accepted in all fields, providing a smoother user experience.
 
