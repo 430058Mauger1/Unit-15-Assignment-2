@@ -412,7 +412,7 @@ Throughout the development process, I prioritised code clarity and comprehensibi
 
 In pursuit of maintainability, I decided to make the codebase smaller. By merging pages during the design phase, I reduced redundancy and complexity, resulting in a more concise and manageable codebase. Additionally, using the Bootstrap framework provided a robust set of pre-built components and styling variables, fostering consistency and efficiency in development and maintenance tasks.
 
-Moreover, employing a version control system, such as GitHub, was helpful in managing changes to the codebase. GitHub's robust features allowed me to track revisions, and seamlessly revert to prior versions when necessary. This meticulous approach to version control ensures a reliable history of changes, facilitating thorough review and approval processes, and ultimately contributing to the long-term maintainability of the project.
+Moreover, employing a version control system, such as GitHub, was helpful in managing changes to the codebase. GitHub's robust features allowed me to track revisions, and seamlessly revert to prior versions when necessary. This meticulous approach to version control ensures a reliable history of changes, facilitating efficient and effective troubleshooting and bug fixing processes, and ultimately contributing to the long-term maintainability of the project.
 
 ### Optimisation
 
