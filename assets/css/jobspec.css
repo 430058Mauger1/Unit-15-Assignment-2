@@ -1,8 +1,5 @@
 /* Setting height to 100% for HTML, body, container-fluid, and row elements */
-html,
-body,
-.container-fluid,
-.row {
+html,body,.container-fluid,.row {
     height: 100%;
 }
 
